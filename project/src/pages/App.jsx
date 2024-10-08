@@ -6,8 +6,7 @@ function App() {
     <Nav page="home" />
     <section id="home">
       <Hero />
-    </section>
-    
+    </section> 
     <section id="about-us">
       <About />
     </section>
