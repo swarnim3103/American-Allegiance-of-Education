@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Nav, Footer} from '../sections/index.js';
+import {Nav, Footer,PetProfileForm} from '../sections/index.js';
 import { navlinks } from '../constants/index.js';
 const Dashboard = () => {
   const scrollToSection = () => {
@@ -13,7 +13,7 @@ const Dashboard = () => {
     <>
       <Nav page="services"/>
       
-      
+      <PetProfileForm />
       <Footer />
     </>
   );
